@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #c9a84c;
+  --color-ucl-navy: #0a0e1a;
+  --color-electric-blue: #1a78c2;
+  
+  --font-bebas: var(--font-bebas);
+  --font-dm-sans: var(--font-dm-sans);
+}
+
+:root {
+  --background: #0a0e1a;
+  --foreground: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-dm-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-bebas), sans-serif;
+  letter-spacing: 0.02em;
+}
+
+/* Custom Selection */
+::selection {
+  background: rgba(201, 168, 76, 0.3);
+  color: white;
+}
+
+/* Glassmorphism primitives */
+.glass {
+  background: rgba(18, 24, 41, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Star field background effect */
+.stars-bg {
+  background-image: 
+    radial-gradient(circle at 20% 30%, rgba(201, 168, 76, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(26, 120, 194, 0.05) 0%, transparent 50%);
+  background-attachment: fixed;
+}
