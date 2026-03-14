@@ -43,5 +43,4 @@ Season: 2025/26
 
 MIT © 2026 [Zayd Kassimi](https://github.com/zaydkassimi)
 ```
-## License
-MIT
+
