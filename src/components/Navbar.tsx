@@ -45,7 +45,7 @@ const Navbar = () => {
               width={42} 
               height={42}
               priority
-              className="object-contain"
+              className="object-contain brightness-0 invert"
             />
             <span>
               <span className="text-white font-bold text-lg tracking-wider">CHAMPIONS </span>
