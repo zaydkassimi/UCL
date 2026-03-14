@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚽ UEFA Champions League Tracker
+
+A modern web app to follow the UEFA Champions League 2025/26 season in real-time.
+
+🌐 Live: https://ucl-championsleague.vercel.app
+
+## Features
+- 🏆 All matches grouped by stage (League Phase, Round of 16, Quarter Finals...)
+- 🔴 Live scores with auto-refresh every 30 seconds
+- 📋 Match detail page with score timeline and referee info
+- 🥇 All-time UCL winners Hall of Fame
+- 📱 Fully responsive (mobile, tablet, desktop)
+
+## Tech Stack
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- football-data.org API
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repo
+git clone https://github.com/zaydkassimi/UCL.git
 
-```bash
+2. Install dependencies
+npm install
+
+3. Add your API token in .env.local
+FOOTBALL_DATA_TOKEN=your_token_here
+
+Get your free token at: https://www.football-data.org
+
+4. Run the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## API
+Data provided by football-data.org (free tier)
+Competition: UEFA Champions League (CL)
+Season: 2025/26
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+MIT
