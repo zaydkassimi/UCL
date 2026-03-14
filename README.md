@@ -41,6 +41,7 @@ Data provided by football-data.org (free tier)
 Competition: UEFA Champions League (CL)
 Season: 2025/26
 
+## License
+
 MIT © 2026 [Zayd Kassimi](https://github.com/zaydkassimi)
 ```
-
